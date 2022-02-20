@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Blog Post</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/styles.css">
+  </head>
+<%- include("partial/header"); -%>
+<div class="container box1">
+  <h1>Home</h1>
+  <p><%=homeContent %></p>
+  <% posts.forEach(function(post){ %>
+    <div class="conatiner in-container"
+      <h1><a href="/posts/<%=post.title%>" style="color:black"><strong><%=post.title%></strong></a></h1>
+      <p>
+        <%=post.content.substring(0,100)+"......"%>
+        <a href="/posts/<%=post.title%>">Read More</a>
+      </p>
+      </div>
+  <% }) %>
+</div>
+
+<%- include("partial/footer"); -%>

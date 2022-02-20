@@ -1,0 +1,75 @@
+html, body {
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    height:100%;
+}
+body{
+  height: 100%;
+  background-image: url("https://www.transparenttextures.com/patterns/dark-exa.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
+footer {
+    background-color: grey;
+    border: 2px dashed gray;
+    text-align: center;
+    color: black;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+#heading{
+  color: #e8e8e8;
+}
+.navbar{
+  background-color: #62959c;
+  border: 2px dashed gray;
+  border-radius: 15px;
+}
+.main{
+  background-color: #c19277;
+  border: 2px dashed black;
+  border-radius: 15px;
+  padding: 20px 20px 20px 20px ;
+  margin:20px 20px 20px 20px;
+}
+.box1{
+  background-color: #e1bc91;
+  border: 2px dashed beige;
+  border-radius: 15px;
+  position: relative;
+  vertical-align: middle;
+  margin:auto;
+}
+.in-container{
+  background-color: white;
+  border: 1px solid black;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+#button1{
+  background-color: green;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+}
+#button2{
+  background-color: beige;
+  color: black;
+}
+.btn:hover {
+  box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+  transform: translateY(-7px);
+}
+.underline-link{
+  color: #e3d0b9;
+  text-decoration: underline;
+}
+.button-link{
+  font: bold 15px Arial;
+  margin-right: 2px;
+  padding: 2px 8px 2px 8px;
+  border-top: 1px solid #CCCCCC;
+  border-right: 1px solid #333333;
+  border-bottom: 1px solid #333333;
+  border-left: 1px solid #CCCCCC;
+}
